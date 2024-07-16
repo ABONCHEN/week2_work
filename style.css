@@ -49,6 +49,7 @@ table {
 a{
     text-decoration: none;
     color: #000;
+
 }
 /*resetCssend*/
 *{
@@ -334,7 +335,9 @@ h2{
 .mypditemblock{
     height: 196px;
 }
-
+.seemore a{
+    color: #fff;
+}
 /* =========productend======== */
 .footer{
     background-color: #000;
