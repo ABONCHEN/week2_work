@@ -1,0 +1,346 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+/*resetCssend*/
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Bruno Ace SC", sans-serif;
+    font-weight: 400;
+    font-size:  24px;
+    line-height: 1.5;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+.container{
+    width: 1296px;
+    margin: 0 auto;
+}
+
+.d-flex{
+    display: flex;
+}
+
+
+
+.fdc{
+    flex-direction: column;
+}
+
+.aic{
+    align-items: center;
+}
+
+.aifs{
+    align-items: flex-start;
+}
+
+.aife{
+   align-items: flex-end;
+}
+
+
+
+.jcsb{
+    justify-content: space-between;
+}
+.jcc{
+    justify-content: center;
+}
+.jcfe{
+    justify-content: flex-end;
+}
+
+.fww{
+    flex-wrap: wrap;
+}
+
+
+h1{
+    font-size: 5.33333333em;
+}
+h2{
+    font-size: 1.66666666em;
+}
+.tp{
+    font-size: 2.6666666em;
+}
+
+.mra{
+    margin-right: auto;
+}
+
+.mrl{
+    margin-left: auto;
+}
+
+
+.fs-1{
+    font-size: 1.33333333em;
+}
+
+.fs-2{
+    font-size: 0.875em;
+}
+
+.fs-3{
+    font-size: 0.833333333em;
+}
+.fs-4{
+    font-size: 0.666666666em;
+}
+
+.walltop{
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
+
+/* ===========通用區end========== */
+
+.nav{
+    background: #000;
+
+}
+
+.navbar li a{
+    display: block;
+    color: #D1D1D1;
+    text-decoration: none;
+    padding: 40px 0;
+}
+
+/* =========選單end========= */
+.main{
+    background-color: #000;
+    padding: 72px 0 22px  0;
+}
+.william_photo{
+    width: 636px;
+}
+
+.william_main{
+    color: #fff;
+}
+.william{
+    color: #00FFA3;
+}
+
+
+.william_button{
+    background-color: #fff;
+    border-radius: 32px;
+    width: 185px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    gap:5px;
+}
+
+.william_contract img{
+    width: 24px;
+    height: auto;
+}
+
+/* =========Williamend======== */
+
+.introduction{
+    background:url(https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/2023week2/background-img.png) no-repeat center top ;
+    background-size: cover;
+}
+
+
+.introduction_word{
+    width: 526px;
+    color: #fff;
+}
+
+.introduction_word p{
+    display: block;
+    padding-top: 36px;
+    padding-bottom: 32px;
+}
+.introduction_block{
+   gap: 16px;
+}
+
+
+.introduction_img{
+    width: 746px;
+}
+.idimg_1{
+    width: 196px;
+}
+.idimg_2{
+    width: 306px;
+}
+
+/* =========introductionend======== */
+.about{
+    color: #15161D;
+}
+.aboutitem{
+    width: 636px;
+    gap:25px;
+}
+
+.aboutitem li{
+    width: 48%;
+    border: 1px #E3E3E3 solid;
+
+}
+.about_limid{
+   margin-top:24px;
+   margin-bottom: 24px;
+}
+.about_limid p{
+    width: 274px; 
+    display: block;
+}
+.about_word p{
+    display: block;
+    margin-top: 36px;
+}
+.about_word{
+    width: 526px;
+}
+
+/* =========about end======== */
+
+.contract{
+    background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.cmp{
+    width: 641px;
+}
+.cme p{
+    color: #fff;
+}
+
+.cme img{
+    padding-left: 16px;
+
+}
+
+.cme_icon{
+    gap: 20px;
+
+}
+
+.cme_icon li a{
+    display: block;
+    width: 162px;
+    max-height: 162px;
+    border-radius: 40px;
+    box-shadow: 4px 4px 8px 0px #00000014;
+
+}
+
+
+.cme_icon li a:hover{
+    display: block;
+    box-shadow: 0px 0px 16px 3px #9094FFE5;
+    transition: .5s;
+}
+
+/* =========contractend======== */
+
+.product_title{
+    width: 976px;
+    padding-bottom: 10px;
+}
+
+.mypditem{
+    width: 856px;
+    gap: 24px;
+}
+
+.mypditem_block img{
+    width: 196px;
+}
+
+.mypditem_word{
+    width: 636px;
+}
+
+.seemore{
+    width: 185px;
+    background: #000;
+    color: #fff;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 32px;
+}
+.seemore img{
+    width: 24px;
+}
+
+.mypditemblock{
+    height: 196px;
+}
+
+/* =========productend======== */
+.footer{
+    background-color: #000;
+}
+.footer p{
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
